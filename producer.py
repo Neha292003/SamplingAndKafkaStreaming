@@ -1,4 +1,3 @@
-# Import KafkaProducer for producing messages
 from confluent_kafka import Producer
 import json
 import urllib3
@@ -69,10 +68,6 @@ def data_traffic_read():
         #count= 0
 
         for location in root.findall('pm'):
-            # Check if 'codigo' element exists
-
-            #print(ET.tostring(location, encoding='utf-8').decode('utf-8'))
-            #print("Entered for")
             
             # Initialize codigo to a default value
             codigo = None
