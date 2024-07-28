@@ -53,7 +53,7 @@ class DateTimeEncoder(json.JSONEncoder):
 #     http = urllib3.PoolManager()
 
 #     # Make an HTTP GET request
-#     response = http.request('GET', 'http://informo.munimadrid.es/informo/tmadrid/pm.xml')
+#     response = http.request('GET', 'https://informo.madrid.es/informo/tmadrid/pm.xml')
     
 #     # Check if the request was successful (status code 200)
 #     if response.status == 200:
