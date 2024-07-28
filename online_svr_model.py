@@ -104,7 +104,7 @@ def data_traffic_read(idelem):
     http = urllib3.PoolManager()
 
     # Construct the URL with the provided idelem
-    url = f'http://informo.munimadrid.es/informo/tmadrid/pm.xml?ide={idelem}'
+    url = f'https://informo.madrid.es/informo/tmadrid/pm.xml?ide={idelem}'
 
     # Make an HTTP GET request
     response = http.request('GET', url)
